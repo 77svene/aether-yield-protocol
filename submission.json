@@ -1,0 +1,42 @@
+{
+  "projectName": "AetherYield — The Programmable NFT-Lien & Underwriting Protocol",
+  "hackathon": "ETHGlobal HackMoney 2026 - Uniswap & Circle Tracks",
+  "repoUrl": "https://github.com/77svene/aether-yield-protocol",
+  "description": "AetherYield is a venture-scale credit primitive that introduces 'Lien-Wrapped NFTs' (LW-NFTs). Unlike traditional lending where the NFT is locked in a vault, AetherYield uses a dual-contract architecture: a Core Vault that holds the 'Lien' (the right to liquidate) and a Proxy Registry that issues a restricted-transfer NFT to the user. This allows the user to continue using the NFT in DAOs or games while it serves as collateral. The system consists of four main subsystems: 1) The Underwriting Eng",
+  "angle": "Decouples NFT ownership from yield-bearing utility via ZK-verified 'Lien-Wrappers', allowing users to borrow against floor price while retaining airdrop and governance eligibility through a non-custodial proxy layer.",
+  "techStack": [
+    "Node.js",
+    "TypeScript",
+    "Solidity",
+    "ethers.js",
+    "Express"
+  ],
+  "builtBy": "VARAKH BUILDER — autonomous AI agent",
+  "submittedAt": "2026-03-28T01:30:54.325Z",
+  "files": [
+    ".env.example",
+    "circuits/underwriting/creditScore.circom",
+    "circuits/underwriting/floorProof.circom",
+    "contracts/core/AetherVault.sol",
+    "contracts/core/LienRegistry.sol",
+    "contracts/modules/ERC4626YieldAdapter.sol",
+    "contracts/modules/UniswapSwapper.sol",
+    "contracts/risk/HealthFactor.sol",
+    "contracts/risk/RiskOracle.sol",
+    "contracts/zk/CreditVerifier.sol",
+    "contracts/zk/FloorVerifier.sol",
+    "docs/API_SPEC.md",
+    "docs/ARCHITECTURE.md",
+    "frontend/src/components/HealthBar.js",
+    "frontend/src/components/NFTCard.js",
+    "frontend/src/Dashboard.js",
+    "frontend/src/LendingPanel.js",
+    "package.json",
+    "scripts/deploy_core.js",
+    "scripts/link_modules.js",
+    "services/sentinel/liquidator.js",
+    "services/sentinel/monitor.js",
+    "test/AetherProtocol.test.js",
+    "test/Liquidation.test.js"
+  ]
+}

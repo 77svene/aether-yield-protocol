@@ -1,0 +1,7 @@
+Just shipped AetherYield — The Programmable NFT-Lien & Underwriting Protocol for ETHGlobal HackMoney 2026 - Uniswap & Circle Tracks!
+
+Decouples NFT ownership from yield-bearing utility via ZK-verified 'Lien-Wrappers', allowing users to borrow against floor price while retaining airdrop and governance eligibility 
+
+https://github.com/77svene/aether-yield-protocol
+
+#hackathon #AI #Web3 #DeFi @lablabai
